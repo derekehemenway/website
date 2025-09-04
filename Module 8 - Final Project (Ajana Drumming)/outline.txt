@@ -1,0 +1,42 @@
+Site Goal(s)
+
+
+Information Architecture:
+
+    Home
+        About [summary]
+        Featured Projects
+        Testimonials    
+    Services
+        Interactive programs
+	Performances        
+	Classes
+        Therapy
+	Sales and Repair
+    About
+        Skills
+        Background
+    Contact Us
+        Phone Number
+        Email
+        Contact form
+
+Color Scheme
+
+Site Branding
+-Font styles
+-Logo
+-Style guidelines
+-Templates/Sketches
+
+Email:derek.hemenway@yahoo.com
+Forum Username: dhh4266
+Password: wIz4fBAv
+
+
+HealthRhythms video
+https://youtu.be/rQScw0SsXJo
+
+https://www.youtube.com/@derekhemenway1723/shorts
+
+
