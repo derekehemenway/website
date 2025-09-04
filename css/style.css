@@ -1,0 +1,217 @@
+/* css style sheet for Ajana */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    /*background-color: #fff2ba;*/
+}
+h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2 {
+    font: 2em Tahoma, sans-serif;
+}
+h3 {
+    font: 1.75em Tahoma, sans-serif;
+}
+p {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+    color: #6A7152
+}
+/*a:link {
+    font-weight: bold;
+    text-decoration: none; 
+} */
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+/*a:hover, a:focus, a:active { 
+	text-decoration: underline; */
+.fontMargin {
+	margin: 0px 0px 0px 0px;
+    padding: 5px;
+}
+header {
+    position: relative;
+    height: 180px;
+    background-color: green;
+	color: whitesmoke;
+    padding-top: 0.5px;
+    /*bottom: 1px;*/
+	text-align: center;
+}
+#container {
+	position: relative;
+	height: 690px;
+	width: 1000px;
+	background-color: #e7fee7; /*light key-lime green*/		
+	/*background-color: #6A7152; dk gold-green*/
+    /*background-color: #63D471; lime-green*/
+	/*background-color: #63A46C; med-green*/
+	/*background: transparent url(images/cloud.JPG) no-repeat top center;*/
+	padding-top: 1px;
+    margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav {
+	position:relative;
+    height: 30px;
+    width: 100%;
+    top: 2px;
+    color: #52522d;
+    background-color: #21c3b3;
+    /*background-color: #6A7152;*/
+    /*background: transparent url() no-repeat top center;*/
+    /*color: #7e7d45;*/
+	padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#banner {
+	top: 2px;
+    height: 155px;
+	background-color: green;
+}
+#sidenav {
+	position: relative;
+	top: 150px;
+	left: 0px;
+	width: 100px;
+	height: 450px;
+	background-color: #3ac1c1;
+	line-height: 40px;
+	font-weight: bold;
+    margin-left: 0px;
+	padding-top: 50px;
+    padding-left: 20px;
+}
+#mainContent {
+	position: relative;
+	top: 100px;
+	left: 30px;
+	width: 900px;
+	height: 610px;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /*background-color: #7b9fe1;*/
+}
+#greenBox {
+	position: absolute;
+	top: 450px;
+    right: 10px;
+	height: 145px;
+	width: 200px;
+    background-color: #63A46C;
+	padding-right: 5px;
+	padding-left: 11px;
+    margin-right: 20px;
+}
+#blueBox {
+    position: absolute;
+    top: 440px;
+    left: 400px;
+    height: 90px;
+    width: 250px;
+    background-color: #e7fee7;
+    padding-top: 9px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+    font-size: .75em;
+    font-style: italic;
+    text-align: center;
+}
+#redBox {
+    position: absolute;
+    top: 440px;	
+    left: 10px;
+    height: 90px;
+    width: 250px;
+    background-color: #e7fee7;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+    font-size: .75em;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #fff2ba;
+    color: #6A7152;
+    cursor: pointer;
+    padding: 8px;
+    padding-top: 10px;
+    padding: left 10px;
+    width: 75%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: arial;
+    font-size: 20px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #e7fee7;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+/* This is the version we'd use for no effects
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+/* This is the version of this style for no effects
+div.panel.show {
+    display: block !important;
+}
+
+/*this version has effects for transition*/
+div.panel {
+    position: absolute;
+    padding: 0 10px;
+    width: 71.5%;
+    background-color: whitesmoke;
+    color:#6A7152;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+footer {
+	position: absolute;
+    bottom: 0px;
+    height: 20px;
+	width: 1000px;
+	background-color: #7e7d45; /*dk brown-green*/
+	color: #e7fee7; 
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 6px;
+}
